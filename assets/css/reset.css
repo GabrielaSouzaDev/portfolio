@@ -1,0 +1,21 @@
+:root {
+    --fundo: #FDF4F1;
+    --primaria: #f9dbd9;
+    --secundaria:#d5646f;
+    --neutra:#EDECEC;
+    --detalhes: #908776;
+    --texto-black: #000000;
+    --texto-white: #ffffff;
+
+}
+
+* body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--fundo);
+    color: var(--texto-black);
+    display: flex;
+    position: relative;
+    height: 100vh;
+}
