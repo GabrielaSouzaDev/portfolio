@@ -6,3 +6,71 @@
     left: 10px;
     z-index: 4;
 }
+
+/* DESKTOP */
+@media (min-width: 1440px) {
+
+    body {
+        background-color: var(--fundo);
+        margin-right: 40px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        height: 100vh;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .logo {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .menu-hamburguer {
+        position: static;
+        z-index: auto;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .menu-visivel {
+        position: static;
+        width: auto;
+        height: auto;
+        background: none;
+        transform: none;
+        transition: none;
+    }
+
+    .menu {
+        display: flex;
+        position: static;
+        transform: none;
+        justify-content: space-between;
+        padding-top: 70px;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .menu ul li {
+        margin: 0;
+    }
+
+    .menu a {
+        font-size: 15px;
+    }
+
+    .menu a:hover {
+        color: var(--secundaria);
+    }
+
+}
