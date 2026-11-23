@@ -1,3 +1,15 @@
+/* MOBILE */
+
+body {
+    background-color: var(--fundo);
+    color: var(--texto-black);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+}
+
+/* CABEÇALHO */
 .logo {
     width: 100px;
     height: 100px;
@@ -7,6 +19,67 @@
     z-index: 4;
 }
 
+/* INÍCIO */
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.onda {
+    transform: rotate(180deg);
+    width: 400px;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+span {
+    text-align: center;
+    color: var(--secundaria);
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.foto {
+    width: 200px;
+    height: 260px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+p {
+    width: 200px;
+    text-align: center;
+}
+
+.botao {
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 12px;
+    text-decoration: none;
+    color: var(--texto-white);
+    background-color: var(--secundaria);
+}
+
+.folha-rosa {
+    width: 80px;
+    height: 130px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* SOBRE */
+
+
 /* DESKTOP */
 @media (min-width: 1440px) {
 
@@ -15,6 +88,7 @@
         margin-right: 40px;
     }
 
+    /* CABEÇALHO */
     header {
         display: flex;
         justify-content: space-between;
@@ -72,5 +146,8 @@
     .menu a:hover {
         color: var(--secundaria);
     }
+
+    /* INÍCIO */
+    
 
 }
