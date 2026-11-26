@@ -20,7 +20,7 @@ body {
 }
 
 /* INÍCIO */
-.inicio {
+.inicio .conteudo-inicio {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +30,7 @@ body {
 
 .onda {
     transform: rotate(180deg);
-    width: 400px;
+    width: 120%;
     margin-top: 100px;
 }
 
@@ -56,6 +56,7 @@ span {
 }
 
 p {
+    margin: 10px;
     width: 200px;
     text-align: center;
 }
@@ -77,7 +78,59 @@ p {
     right: 10px;
 }
 
+.avatar {
+    display: none;
+}
+
 /* SOBRE */
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-titulo {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 70px 20px 30px 20px;
+}
+
+.titulo {
+    display: flex;
+    background-color: var(--primaria);
+    margin-top: 20px;
+    padding: 20px 80px;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.linha-rosa {
+    flex-grow: 1;
+    background-color: var(--primaria);
+    height: 2px;
+    min-width: 20px;
+}
+
+.folha {
+    width: 80px;
+    margin-top: -110px;
+    margin-left: -10px;
+}
+
+.sobre-info {
+    width: 350px;
+    font-size: 20px;
+}
+
+
 
 
 /* DESKTOP */
@@ -148,6 +201,51 @@ p {
     }
 
     /* INÍCIO */
-    
+    .foto {
+        display: none;
+    }
+
+    .avatar {
+        display: block;
+    }
+
+    .onda {
+        margin-top: 0;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 40px;
+    }
+
+    .conteudo-inicio {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    span {
+        font-size: 25px;
+    }
+
+    p {
+        margin: 20px;
+        width: 350px;
+        font-size: 20px;
+    }
+
+    .botao {
+        padding: 20px 30px;
+    }
+
+    .folha-rosa {
+        width: 100px;
+        height: 150px;
+    }
 
 }
