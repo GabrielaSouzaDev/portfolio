@@ -139,7 +139,7 @@ p {
 
 }
 
-.secao-habilidades {
+.secao {
     width: 80%;
     display: flex;
     align-items: center;
@@ -237,7 +237,7 @@ h4 {
 }
 
 /* DISCIPLINAS */
-.secao-disciplinas {
+.secao-disciplinas, .secao-projetos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -265,6 +265,7 @@ h4 {
 }
 
 .disciplina {
+    background-color: var(--neutra);
     margin: 10px;
     border: 2px solid var(--primaria);
     border-radius: 10px;
@@ -284,6 +285,98 @@ button {
 
 .seta {
     width: 30px;
+}
+
+/* PROJETOS */
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.projeto {
+    margin: 10px;
+    border: 2px solid var(--primaria);
+    border-radius: 10px;
+    padding: 30px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+
+.img-projeto {
+    width: 220px;
+    border-radius: 6px;
+}
+
+/* CONTATOS */
+.rodape {
+    display: flex;
+    flex-direction: column;
+}
+
+.folha-em-pe {
+    width: 80px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.linha-preta-rodape {
+    background-color: var(--texto-black);
+    display: flex;
+    width: 500px;
+    margin: 0 50px;
+    min-width: 20px;
+    height: 1px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-contato {
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.texto-rodape {
+    font-family: "Grape Nuts", cursive;
+    font-size: 18px;
+}
+
+.img-rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.vaso {
+    width: 100px;
+    height: 100px;
+    margin-top: -90px;
+    margin-right: -420px;
+}
+
+.onda2 {
+    width: 120%;
 }
 
 /* DESKTOP */
